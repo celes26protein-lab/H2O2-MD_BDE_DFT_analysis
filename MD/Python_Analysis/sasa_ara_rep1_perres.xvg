@@ -1,0 +1,26 @@
+# This file was created Thu Aug 13 03:28:12 2026
+# Created by:
+#                 :-) GROMACS - gmx sasa, 2026.3-conda_forge (-:
+# 
+# Executable:   /usr/local/bin.AVX2_256/gmx
+# Data prefix:  /usr/local
+# Working dir:  /content/drive/MyDrive/l-arabinose_10ns_MD/ara_1/rep1_restored
+# Command line:
+#   gmx sasa -s md.tpr -f md.xtc -n index_rep1.ndx -surface 'group "UNL"' -o sasa_ara_rep1.xvg -or sasa_ara_rep1_perres.xvg
+# gmx sasa is part of G R O M A C S:
+#
+# Guyana Rwanda Oman Macau Angola Cameroon Senegal
+#
+@    title "Area per residue over the trajectory"
+@    xaxis  label "Residue"
+@    yaxis  label "Area (nm\S2\N)"
+@TYPE xy
+@ view 0.15, 0.15, 0.75, 0.85
+@ legend on
+@ legend box on
+@ legend loctype view
+@ legend 0.78, 0.8
+@ legend length 2
+@ s0 legend "Average (nm\S2\N)"
+@ s1 legend "Standard deviation (nm\S2\N)"
+       1    3.057    0.108

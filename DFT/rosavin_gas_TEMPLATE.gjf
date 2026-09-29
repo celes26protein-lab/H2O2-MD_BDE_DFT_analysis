@@ -1,0 +1,10 @@
+%chk=rosavin_gas.chk
+%mem=8GB
+%nprocshared=8
+# opt freq b3lyp/6-31g(d) pop=full
+
+Rosavin -- gas phase geometry optimization + HOMO/LUMO
+
+0 1
+[ molecule coordinates go here: element x y z, one atom per line ]
+

@@ -1,0 +1,408 @@
+
+Scratch directory: /tmp/
+  PCM or DDX continuum solvation does not make use of molecular symmetry: further calculations in C1 point group.
+   => Libint2 <=
+
+    Primary   basis highest AM E, G, H:  7, 6, 3
+    Auxiliary basis highest AM E, G, H:  7, 7, 4
+    Onebody   basis highest AM E, G, H:  -, -, -
+    Solid Harmonics ordering:            Gaussian
+
+*** tstart() called on 754ac193ae8e
+*** at Thu Aug 13 05:29:02 2026
+
+   => Loading Basis Set <=
+
+    Name: 6-31G*
+    Role: ORBITAL
+    Keyword: BASIS
+    atoms 1-5   entry C          line   111 file /usr/local/share/psi4/basis/6-31gs.gbs 
+    atoms 6-10  entry O          line   145 file /usr/local/share/psi4/basis/6-31gs.gbs 
+    atoms 11-20 entry H          line    44 file /usr/local/share/psi4/basis/6-31gs.gbs 
+
+
+         ---------------------------------------------------------
+                                   SCF
+               by Justin Turney, Rob Parrish, Andy Simmonett
+                          and Daniel G. A. Smith
+                              RKS Reference
+                        2 Threads,   3814 MiB Core
+         ---------------------------------------------------------
+
+  ==> Geometry <==
+
+    Molecular point group: c1
+    Full point group: C1
+
+    Geometry (in Angstrom), charge = 0, multiplicity = 1:
+
+       Center              X                  Y                   Z               Mass       
+    ------------   -----------------  -----------------  -----------------  -----------------
+         C            0.677208051712    -1.758842055621    -0.248277277899    12.000000000000
+         C            1.438546051712    -0.443014055621    -0.426112277899    12.000000000000
+         C            0.467044051712     0.715355944379    -0.644354277899    12.000000000000
+         C           -0.606972948288     0.735082944379     0.448409722101    12.000000000000
+         C           -1.287047948288    -0.644025055621     0.528883722101    12.000000000000
+         O           -0.339985948288    -1.676191055621     0.756325722101    15.994914619570
+         O           -2.046809948288    -0.893739055621    -0.651024277899    15.994914619570
+         O           -1.564716948288     1.758281944379     0.116858722101    15.994914619570
+         O            1.195984051712     1.955900944379    -0.621841277899    15.994914619570
+         O            2.226951051712    -0.168422055621     0.741927722101    15.994914619570
+         H            1.367059051712    -2.547726055621     0.069069722101     1.007825032230
+         H            0.219282051712    -2.074506055621    -1.192546277899     1.007825032230
+         H            2.141623051712    -0.518457055621    -1.262583277899     1.007825032230
+         H            0.003899051712     0.639462944379    -1.635498277899     1.007825032230
+         H           -0.150447948288     1.002368944379     1.408963722101     1.007825032230
+         H           -1.998583948288    -0.646205055621     1.360884722101     1.007825032230
+         H           -2.316039948288    -0.019652055621    -0.990243277899     1.007825032230
+         H           -2.125652948288     1.884120944379     0.905488722101     1.007825032230
+         H            0.512794051712     2.654833944379    -0.655377277899     1.007825032230
+         H            2.533827051712     0.753909944379     0.625730722101     1.007825032230
+
+  Running in c1 symmetry.
+
+  Rotational constants: A =      0.05513  B =      0.04814  C =      0.03077 [cm^-1]
+  Rotational constants: A =   1652.66562  B =   1443.14688  C =    922.31689 [MHz]
+  Nuclear repulsion =  626.631636003683184
+
+  Charge       = 0
+  Multiplicity = 1
+  Electrons    = 80
+  Nalpha       = 40
+  Nbeta        = 40
+
+  ==> Algorithm <==
+
+  SCF Algorithm Type is DF.
+  DIIS enabled.
+  MOM disabled.
+  Fractional occupation disabled.
+  Guess Type is SAD.
+  Energy threshold   = 1.00e-06
+  Density threshold  = 1.00e-06
+  Integral threshold = 1.00e-12
+
+  ==> Primary Basis <==
+
+  Basis Set: 6-31G*
+    Blend: 6-31G*
+    Number of shells: 80
+    Number of basis functions: 170
+    Number of Cartesian functions: 170
+    Spherical Harmonics?: false
+    Max angular momentum: 2
+
+  ==> DFT Potential <==
+
+   => LibXC <=
+
+    Version 7.1.2
+    S. Lehtola, C. Steigemann, M. J. T. Oliveira, and M. A. L. Marques,  SoftwareX 7, 1–5 (2018) (10.1016/j.softx.2017.11.002)
+
+   => Composite Functional: B3LYP <= 
+
+    B3LYP Hyb-GGA Exchange-Correlation Functional
+
+    P. J. Stephens, F. J. Devlin, C. F. Chabalowski, and M. J. Frisch,  J. Phys. Chem. 98, 11623 (1994) (10.1021/j100096a001)
+
+    Deriv               =              1
+    GGA                 =           TRUE
+    Meta                =          FALSE
+
+    Exchange Hybrid     =           TRUE
+    MP2 Hybrid          =          FALSE
+
+   => Exchange Functionals <=
+
+    0.0800   Slater exchange
+    0.7200         Becke 88
+
+   => Exact (HF) Exchange <=
+
+    0.2000               HF 
+
+   => Correlation Functionals <=
+
+    0.1900   Vosko, Wilk & Nusair (VWN5_RPA)
+    0.8100   Lee, Yang & Parr
+
+   => LibXC Density Thresholds  <==
+
+    XC_HYB_GGA_XC_B3LYP:  1.00E-15 
+
+   => Molecular Quadrature <=
+
+    Radial Scheme          =       TREUTLER
+    Pruning Scheme         =           NONE
+    Nuclear Scheme         =       TREUTLER
+
+    Blocking Scheme        =         OCTREE
+    BS radius alpha        =              1
+    Pruning alpha          =              1
+    Radial Points          =             75
+    Spherical Points       =            302
+    Total Points           =         414640
+    Total Blocks           =           3031
+    Max Points             =            256
+    Max Functions          =            166
+    Weights Tolerance      =       1.00E-15
+
+   => Loading Basis Set <=
+
+    Name: (6-31G* AUX)
+    Role: JKFIT
+    Keyword: DF_BASIS_SCF
+    atoms 1-5   entry C          line   121 file /usr/local/share/psi4/basis/cc-pvdz-jkfit.gbs 
+    atoms 6-10  entry O          line   221 file /usr/local/share/psi4/basis/cc-pvdz-jkfit.gbs 
+    atoms 11-20 entry H          line    51 file /usr/local/share/psi4/basis/cc-pvdz-jkfit.gbs 
+
+  **PSI4:PCMSOLVER Interface Active**
+
+-----------------------------------------------------------------------
+   PCMSolver: An Open Source API for the Polarizable Continuum Model
+                   PCMSolver undefined+0c386ac
+
+           Git: Branch {main}, Revision {0c386ac}
+
+ R. Di Remigio, A. H. Steindal, K. Mozgawa, V. Weijo, H. Cao, and
+ L. Frediani, Int. J. Quantum Chem., 2019, 119 (1), e25685.
+
+ Source repository: https://github.com/PCMSolver/pcmsolver
+ Documentation: https://pcmsolver.readthedocs.io/
+ PCMSolver initialized on: Thursday, 13 August 2026 05:29 AM
+-----------------------------------------------------------------------
+
+~~~~~~~~~~ PCMSolver ~~~~~~~~~~
+Using CODATA 2010 set of constants.
+Input parsing done API-side
+========== Cavity 
+Atomic radii set: 
+Cavity type: GePol
+Average tesserae area = 0.3 Ang^2
+Solvent probe radius = 1.385 Ang
+Number of spheres = 20 [initial = 20; added = 0]
+Number of finite elements = 838 (1 pruned)
+Number of irreducible finite elements = 838
+============ Spheres list (in Angstrom)
+ Sphere   on   Radius   Alpha       X            Y            Z     
+-------- ---- -------- ------- -----------  -----------  -----------
+   1      C    1.9255   1.00     0.677208     -1.758842     -0.248277
+   2      C    1.9255   1.00     1.438546     -0.443014     -0.426112
+   3      C    1.9255   1.00     0.467044     0.715356     -0.644354
+   4      C    1.9255   1.00     -0.606973     0.735083     0.448410
+   5      C    1.9255   1.00     -1.287048     -0.644025     0.528884
+   6      O    1.7500   1.00     -0.339986     -1.676191     0.756326
+   7      O    1.7500   1.00     -2.046810     -0.893739     -0.651024
+   8      O    1.7500   1.00     -1.564717     1.758282     0.116859
+   9      O    1.7500   1.00     1.195984     1.955901     -0.621841
+  10      O    1.7500   1.00     2.226951     -0.168422     0.741928
+  11      H    1.4430   1.00     1.367059     -2.547726     0.069070
+  12      H    1.4430   1.00     0.219282     -2.074506     -1.192546
+  13      H    1.4430   1.00     2.141623     -0.518457     -1.262583
+  14      H    1.4430   1.00     0.003899     0.639463     -1.635498
+  15      H    1.4430   1.00     -0.150448     1.002369     1.408964
+  16      H    1.4430   1.00     -1.998584     -0.646205     1.360885
+  17      H    1.4430   1.00     -2.316040     -0.019652     -0.990243
+  18      H    1.4430   1.00     -2.125653     1.884121     0.905489
+  19      H    1.4430   1.00     0.512794     2.654834     -0.655377
+  20      H    1.4430   1.00     2.533827     0.753910     0.625731
+========== Static solver 
+Solver Type: IEFPCM, isotropic
+PCM matrix hermitivitized
+============ Medium 
+Medium initialized from solvent built-in data.
+Solvent name:          Water
+Static  permittivity = 78.39
+Optical permittivity = 1.78
+Solvent radius =       1.39 Ang
+.... Inside 
+Green's function type: vacuum
+.... Outside 
+Green's function type: uniform dielectric
+Permittivity = 78.39
+
+  ==> Integral Setup <==
+
+  DFHelper Memory: AOs need 0.236 GiB; user supplied 1.284 GiB. 
+  SCF_SUBTYPE=INCORE selected. In-core MEM_DF algorithm will be used.
+  Using in-core AOs.
+
+  ==> MemDFJK: Density-Fitted J/K Matrices <==
+
+    J tasked:                   Yes
+    K tasked:                   Yes
+    wK tasked:                   No
+    OpenMP threads:               2
+    Memory [MiB]:              1314
+    Algorithm:                 Core
+    Schwarz Cutoff:           1E-12
+    Mask sparsity (%):       3.1280
+    Fitting Condition:        1E-10
+
+   => Auxiliary Basis Set <=
+
+  Basis Set: (6-31G* AUX)
+    Blend: CC-PVDZ-JKFIT
+    Number of shells: 330
+    Number of basis functions: 1060
+    Number of Cartesian functions: 1060
+    Spherical Harmonics?: false
+    Max angular momentum: 3
+
+  Cached 100.0% of DFT collocation blocks in 1.510 [GiB].
+
+  Minimum eigenvalue in the overlap matrix is 2.0951220146E-03.
+  Reciprocal condition number of the overlap matrix is 2.7056551369E-04.
+    Using symmetric orthogonalization.
+
+  ==> Pre-Iterations <==
+
+  SCF Guess: Superposition of Atomic Densities via on-the-fly atomic UHF (no occupation information).
+
+   -------------------------
+    Irrep   Nso     Nmo    
+   -------------------------
+     A        170     170 
+   -------------------------
+    Total     170     170
+   -------------------------
+
+  ==> Iterations <==
+
+                           Total Energy        Delta E     RMS |[F,P]|
+
+   @DF-RKS iter SAD:  -571.84311308536383   -5.71843e+02   0.00000e+00 
+   @DF-RKS iter   1:  -572.19007925262019   -3.46966e-01   6.23913e-03 DIIS/ADIIS
+   @DF-RKS iter   2:  -571.96212478646055    2.27954e-01   7.91364e-03 DIIS/ADIIS
+   @DF-RKS iter   3:  -572.62932122840630   -6.67196e-01   8.18357e-04 DIIS/ADIIS
+   @DF-RKS iter   4:  -572.63676354205154   -7.44231e-03   2.84590e-04 DIIS/ADIIS
+   @DF-RKS iter   5:  -572.63777967738224   -1.01614e-03   3.80270e-05 DIIS
+   @DF-RKS iter   6:  -572.63779335762661   -1.36802e-05   1.90089e-05 DIIS
+   @DF-RKS iter   7:  -572.63779722632296   -3.86870e-06   3.07177e-06 DIIS
+   @DF-RKS iter   8:  -572.63779730955844   -8.32355e-08   1.13227e-06 DIIS
+   @DF-RKS iter   9:  -572.63779732485477   -1.52963e-08   2.20444e-07 DIIS
+  Energy and wave function converged.
+
+
+  ==> Post-Iterations <==
+
+   Electrons on quadrature grid:
+      Ntotal   =   80.0001940720 ; deviation = 1.941e-04 
+
+    Orbital Energies [Eh]
+    ---------------------
+
+    Doubly Occupied:                                                      
+
+       1A    -19.168780     2A    -19.166227     3A    -19.155490  
+       4A    -19.153368     5A    -19.146305     6A    -10.287862  
+       7A    -10.243245     8A    -10.242810     9A    -10.242589  
+      10A    -10.237675    11A     -1.071740    12A     -1.039655  
+      13A     -1.029424    14A     -1.006029    15A     -1.001181  
+      16A     -0.780229    17A     -0.754802    18A     -0.648950  
+      19A     -0.645953    20A     -0.570567    21A     -0.542108  
+      22A     -0.524590    23A     -0.518594    24A     -0.506079  
+      25A     -0.491710    26A     -0.466697    27A     -0.451786  
+      28A     -0.429883    29A     -0.421219    30A     -0.398618  
+      31A     -0.377036    32A     -0.368185    33A     -0.360061  
+      34A     -0.341588    35A     -0.323374    36A     -0.309541  
+      37A     -0.295157    38A     -0.284222    39A     -0.272199  
+      40A     -0.257247  
+
+    Virtual:                                                              
+
+      41A      0.062107    42A      0.079621    43A      0.091061  
+      44A      0.112538    45A      0.130293    46A      0.142197  
+      47A      0.145303    48A      0.150419    49A      0.176145  
+      50A      0.176980    51A      0.185287    52A      0.191918  
+      53A      0.192743    54A      0.219769    55A      0.234550  
+      56A      0.250475    57A      0.279850    58A      0.284161  
+      59A      0.294913    60A      0.311659    61A      0.520850  
+      62A      0.535726    63A      0.546690    64A      0.559747  
+      65A      0.565211    66A      0.572293    67A      0.592974  
+      68A      0.630143    69A      0.644573    70A      0.661354  
+      71A      0.696636    72A      0.712791    73A      0.740553  
+      74A      0.764433    75A      0.777192    76A      0.785493  
+      77A      0.798300    78A      0.824151    79A      0.838911  
+      80A      0.849432    81A      0.863698    82A      0.873165  
+      83A      0.893128    84A      0.899364    85A      0.908557  
+      86A      0.932627    87A      0.940309    88A      0.966407  
+      89A      0.994983    90A      1.000997    91A      1.038251  
+      92A      1.054320    93A      1.076170    94A      1.079438  
+      95A      1.115715    96A      1.132524    97A      1.161936  
+      98A      1.188240    99A      1.221267   100A      1.249110  
+     101A      1.273779   102A      1.323977   103A      1.339220  
+     104A      1.364100   105A      1.375023   106A      1.395375  
+     107A      1.460073   108A      1.503476   109A      1.525403  
+     110A      1.591506   111A      1.615980   112A      1.645929  
+     113A      1.653938   114A      1.663763   115A      1.707406  
+     116A      1.711483   117A      1.735690   118A      1.781549  
+     119A      1.791330   120A      1.813288   121A      1.845346  
+     122A      1.858267   123A      1.870589   124A      1.897686  
+     125A      1.923314   126A      1.935855   127A      1.975599  
+     128A      2.025771   129A      2.067271   130A      2.075282  
+     131A      2.088924   132A      2.110484   133A      2.123521  
+     134A      2.135557   135A      2.171800   136A      2.212764  
+     137A      2.228875   138A      2.254822   139A      2.272920  
+     140A      2.331107   141A      2.378745   142A      2.396959  
+     143A      2.443711   144A      2.458604   145A      2.487043  
+     146A      2.496835   147A      2.522420   148A      2.538886  
+     149A      2.559234   150A      2.606822   151A      2.677328  
+     152A      2.706989   153A      2.720766   154A      2.821248  
+     155A      2.841452   156A      2.875558   157A      2.896596  
+     158A      2.948196   159A      2.975076   160A      3.014492  
+     161A      3.730182   162A      3.796002   163A      3.815791  
+     164A      3.887761   165A      4.012140   166A      4.321979  
+     167A      4.332129   168A      4.489925   169A      4.643562  
+     170A      4.691963  
+
+    Final Occupation by Irrep:
+              A 
+    DOCC [    40 ]
+    NA   [    40 ]
+    NB   [    40 ]
+
+  @DF-RKS Final Energy:  -572.63779732485477
+
+   => Energetics <=
+
+    Nuclear Repulsion Energy =            626.6316360036831838
+    One-Electron Energy =               -2028.7344385336737105
+    Two-Electron Energy =                 889.2592016401389401
+    DFT Exchange-Correlation Energy =     -59.7714698783975820
+    Empirical Dispersion Energy =           0.0000000000000000
+    VV10 Nonlocal Energy =                  0.0000000000000000
+    PCM Polarization Energy =              -0.0227265566054191
+    Total Energy =                       -572.6377973248547733
+
+Computation Completed
+
+
+Properties will be evaluated at   0.000000,   0.000000,   0.000000 [a0]
+
+Properties computed using the SCF density matrix
+
+
+ Multipole Moments:
+
+ ------------------------------------------------------------------------------------
+     Multipole            Electronic (a.u.)      Nuclear  (a.u.)        Total (a.u.)
+ ------------------------------------------------------------------------------------
+
+ L = 1.  Multiply by 2.5417464519 to convert [e a0] to [Debye]
+ Dipole X            :         -0.8820030            0.1734790           -0.7085240
+ Dipole Y            :          0.3130535            1.0622955            1.3753490
+ Dipole Z            :          1.0770213           -1.2790427           -0.2020213
+ Magnitude           :                                                    1.5602576
+
+ ------------------------------------------------------------------------------------
+
+*** tstop() called on 754ac193ae8e at Thu Aug 13 05:30:14 2026
+Module time:
+	user time   =     102.42 seconds =       1.71 minutes
+	system time =       1.89 seconds =       0.03 minutes
+	total time  =         72 seconds =       1.20 minutes
+Total time:
+	user time   =    1554.87 seconds =      25.91 minutes
+	system time =      59.54 seconds =       0.99 minutes
+	total time  =       1829 seconds =      30.48 minutes

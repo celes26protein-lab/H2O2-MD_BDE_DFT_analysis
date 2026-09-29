@@ -1,0 +1,18 @@
+; Rosavin + H2O2 topology
+#include "amber99sb.ff/forcefield.itp"
+#include "rosavin_new_GMX.itp"
+#ifdef POSRES
+#include "posre_rosavin_new.itp"
+#endif
+#include "h2o2.itp"
+#include "amber99sb.ff/tip3p.itp"
+#include "amber99sb.ff/ions.itp"
+
+[ system ]
+Rosavin + H2O2 in water
+
+[ molecules ]
+; Compound        #mols
+rosavin_new         1
+H2O2                1
+SOL              1629

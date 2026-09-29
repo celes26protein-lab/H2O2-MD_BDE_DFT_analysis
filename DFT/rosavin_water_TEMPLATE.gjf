@@ -1,0 +1,10 @@
+%chk=rosavin_water.chk
+%mem=8GB
+%nprocshared=8
+# opt freq b3lyp/6-31g(d) scrf=(pcm,solvent=water) pop=full
+
+Rosavin -- implicit water (PCM) geometry optimization + HOMO/LUMO
+
+0 1
+[ molecule coordinates go here: element x y z, one atom per line ]
+

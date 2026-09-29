@@ -1,0 +1,18 @@
+; L-arabinose + H2O2 topology
+#include "amber99sb.ff/forcefield.itp"
+#include "l-arabinose_GMX.itp"
+#ifdef POSRES
+#include "posre_arabinose.itp"
+#endif
+#include "h2o2.itp"
+#include "amber99sb.ff/tip3p.itp"
+#include "amber99sb.ff/ions.itp"
+
+[ system ]
+L-arabinose + H2O2 in water
+
+[ molecules ]
+; Compound        #mols
+l-ara               1
+H2O2                1
+SOL              1076
