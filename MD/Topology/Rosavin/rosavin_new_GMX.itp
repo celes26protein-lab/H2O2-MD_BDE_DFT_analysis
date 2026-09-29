@@ -1,5 +1,4 @@
-; rosavin_new_GMX.itp created by acpype (v: 2023.10.27) on Mon Aug 10 02:06:19 2026
-
+; rosavin_new_GMX.itp created by acpype (v: 2023.10.27) 
 [ atomtypes ]
 ;name   bond_type     mass     charge   ptype   sigma         epsilon       Amb
  oh       oh          0.00000  0.00000   A     3.24287e-01   3.89112e-01 ; 1.82  0.0930
