@@ -1,11 +1,5 @@
-# This file was created Thu Aug 13 02:48:49 2026
 # Created by:
 #               :-) GROMACS - gmx distance, 2026.3-conda_forge (-:
-# 
-# Executable:   /usr/local/bin.AVX2_256/gmx
-# Data prefix:  /usr/local
-# Working dir:  /content/drive/MyDrive/l-arabinose_10ns_MD/ara_1/rep1_restored
-# Command line:
 #   gmx distance -s md.tpr -f md.xtc -oall dist_ara_rep1.xvg -select 'com of group "UNL" plus com of group "H2O2"'
 # gmx distance is part of G R O M A C S:
 #
