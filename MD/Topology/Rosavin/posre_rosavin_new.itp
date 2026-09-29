@@ -1,5 +1,4 @@
-; posre_rosavin_new.itp created by acpype (v: 2023.10.27) on Mon Aug 10 02:06:19 2026
-
+; posre_rosavin_new.itp created by acpype (v: 2023.10.27) 
 [ position_restraints ]
 ; atom  type      fx      fy      fz
      1     1  1000  1000  1000
