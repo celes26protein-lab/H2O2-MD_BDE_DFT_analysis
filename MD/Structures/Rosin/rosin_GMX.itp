@@ -1,4 +1,4 @@
-; rosin_GMX.itp created by acpype (v: 2023.10.27) on Wed May  6 11:24:20 2026
+; rosin_GMX.itp created by acpype (v: 2023.10.27) 
 
 [ atomtypes ]
 ;name   bond_type     mass     charge   ptype   sigma         epsilon       Amb
