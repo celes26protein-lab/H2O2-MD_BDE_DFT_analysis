@@ -1,10 +1,5 @@
-# This file was created Thu Aug 13 03:28:12 2026
 # Created by:
-#                 :-) GROMACS - gmx sasa, 2026.3-conda_forge (-:
-# 
-# Executable:   /usr/local/bin.AVX2_256/gmx
-# Data prefix:  /usr/local
-# Working dir:  /content/drive/MyDrive/l-arabinose_10ns_MD/ara_1/rep1_restored
+#                 :-) GROMACS - gmx sasa, 2026.3-conda_forge (-:# 
 # Command line:
 #   gmx sasa -s md.tpr -f md.xtc -n index_rep1.ndx -surface 'group "UNL"' -o sasa_ara_rep1.xvg -or sasa_ara_rep1_perres.xvg
 # gmx sasa is part of G R O M A C S:
